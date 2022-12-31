@@ -1,0 +1,743 @@
+body {
+  padding-bottom: 600px;
+}
+
+
+/*Exercise 2*/
+
+.uber-button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 12px 10px 12px 10px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.uber-button:hover {
+  opacity: 0.8;
+}
+
+.amazon-button {
+  background-color: rgb(255, 216, 20);
+  border: none;
+  border-radius: 15px;
+  padding: 12px 12px 12px 12px;
+  margin: 0px 8px 0px 8px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.amazon-button:hover {
+  background-color: rgb(255, 187, 0);
+}
+
+p {
+  color: tomato;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+p.challenge {
+  color: rgb(245, 8, 126);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+.github-button {
+  background-color: rgb(46, 164, 79);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 10px 12px 10px;
+  cursor: pointer;
+}
+
+.github-button:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.bootstrap-button1 {
+  background-color: rgb(121, 82, 125);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 10px 12px 10px;
+  cursor: pointer;
+}
+
+.bootstrap-button1:hover {
+  background-color: rgb(160, 60, 172);
+}
+
+.bootstrap-button2 {
+  background-color: white;
+  color: rgb(121, 82, 125);
+  font-weight: bold;
+  border: rgb(121, 82, 125) 1px solid;
+  border-radius: 5px;
+  padding: 12px 10px 12px 10px;
+  margin-left: 6px;
+  cursor: pointer;
+  transition: background-color 0.15s,
+    color 0.15s;
+}
+
+.bootstrap-button2:hover {
+  background-color: rgb(99, 96, 96);
+  color: white;
+}
+
+.linkedin-button1 {
+  background-color: rgb(10, 102, 194);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 17px;
+  padding: 12px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.linkedin-button1:hover {
+  background-color: rgb(0, 58, 116);
+}
+
+.linkedin-button2 {
+  background-color: white;
+  color: rgb(10, 102, 194);
+  font-weight: bold;
+  border: rgb(10, 102, 194) 1px solid;
+  border-radius: 17px;
+  padding: 11px 14px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.linkedin-button2:hover {
+  background-color: rgb(223, 236, 248);
+  border: rgb(0, 58, 116) 2px solid;
+  padding: 10px 13px;
+}
+
+a {
+  color: rgb(0, 113, 133);
+}
+
+a:hover {
+  color: rgb(233, 24, 24);
+}
+
+p.rate {
+  color: rgb(0, 118, 0);
+}
+
+p.black {
+  color: black;
+}
+
+.challenge-button1 {
+  background-color: rgb(255, 216, 20);
+  border: none;
+  padding: 12px 14px;
+  font-weight: bold;
+  border-radius: 15px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.challenge-button1:active {
+  opacity: 0.7;
+}
+
+.challenge-button2 {
+  background-color: rgb(255, 164, 28);
+  border: none;
+  padding: 12px 14px;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.challenge-button2:active {
+  opacity: 0.7;
+}
+
+.tahoma-font {
+  font-family: Tahoma;
+  color: black;
+}
+
+.arial-font1 {
+  font-family: arial;
+  font-size: larger;
+  color: black;
+  margin-bottom: 0;
+}
+
+.arial-font2 {
+  color: rgb(250, 67, 67);
+  font-family: arial;
+  font-style: italic;
+  margin-top: 5px;
+}
+
+.verdana1 {
+  color: black;
+  font-family: Verdana;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.verdana2 {
+  color: rgb(102, 96, 96);
+  font-family: Verdana;
+  margin-top: 2px;
+  font-weight: normal;
+  font-size: 15px;
+}
+
+.verdana3 {
+  color: black;
+  font-family: Verdana;
+  margin-top: 2px;
+  font-weight: normal;
+  font-size: 16px;
+  width: 280px;
+}
+
+.verdana-button {
+  font-family: verdana;
+  background-color: green;
+  padding: 9px 15px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.L7Ex1 {
+  width: 200px;
+  margin: 10px 15px;
+  border-radius: 5px;
+}
+
+.L7Ex2 {
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.L7Ex3 {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position: fill;
+  margin: 10px 15px;
+  border-radius: 100px;
+}
+
+.input1 {
+  margin-left: 5px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+  border: 1px gray solid;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.input2 {
+  margin-left: 5px;
+  font-family: arial;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 300px;
+  padding-bottom: 10px;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  box-shadow: 0px 0px 5px black;
+}
+
+.input3-label {
+  color: rgb(107, 106, 106);
+  display: block;
+  margin-top: 15px;
+  font-size: 14px;
+  font-family: Arial;
+  margin-bottom: 5px;
+}
+
+.input3 {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  font-family: Arial;
+  padding-right: 200px;
+  border: 2px rgb(150, 147, 147) solid;
+  border-radius: 3px;
+}
+
+.agree-pragraph {
+  color: rgb(107, 106, 106);
+  font-weight: normal;
+  margin-top: 18px;
+  font-size: 15px;
+  font-family: Arial;
+  margin-bottom: 10px;
+}
+
+.agree-button {
+  border: none;
+  background-color: rgb(63, 63, 182);
+  border-radius: 14px;
+  color: white;
+  font-size: 14px;
+  font-family: Arial;
+  padding: 8px 150px;
+  display: block;
+  margin-bottom: 8px;
+  margin-top: 0px;
+  cursor: pointer;
+}
+
+.input4-img {
+  width: 40px;
+  height: 40px;
+  display: inline;
+  object-fit: cover;
+  border-radius: 40px;
+  margin-bottom: 10px;
+}
+
+.input4 {
+  margin-bottom: 100px;
+  margin-left: 0px;
+  margin-top: 6px;
+  position: relative;
+  right: 0px;
+  bottom: 24px;
+  border: none;
+  padding-left: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 50px;
+  font-family: arial;
+  font-size: 14px;
+}
+
+.input4:focus {
+  border: none;
+}
+
+.input4-tweet-button {
+  background-color: rgb(10, 198, 255);
+  border: none;
+  border-radius: 15px;
+  position: relative;
+  bottom: 24px;
+  color: white;
+  padding: 8px 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.google-logo {
+  display: block;
+  width: 240px;
+  margin-left: 200px;
+}
+
+.google-search-bar {
+  margin-left: 100px;
+  font-family: arial;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 300px;
+  padding-bottom: 10px;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  box-shadow: 0px 0px 5px black;
+  width: fit-content;
+  block-size: fit-content;
+}
+
+.lesson8-challenge-button1 {
+  background-color: white;
+  color: rgb(99, 97, 97);
+  border: 1px rgb(179, 179, 179) solid;
+  font-size: 15px;
+  border-radius: 5px;
+  font-family: arial;
+  padding: 8px 0px 8px 10px;
+  margin: 1px;
+}
+
+.lesson8-challenge-button2 {
+  background-color: white;
+  color: rgb(99, 97, 97);
+  border: 1px rgb(179, 179, 179) solid;
+  font-size: 15px;
+  border-radius: 5px;
+  font-family: arial;
+  padding: 8px 0px 8px 10px;
+  margin: 1px;
+}
+
+.lesson8-challenge-button3 {
+  background-color: white;
+  color: rgb(99, 97, 97);
+  border: 1px rgb(179, 179, 179) solid;
+  font-size: 15px;
+  border-radius: 5px;
+  font-family: arial;
+  padding: 8px 210px 8px 10px;
+  margin-top: 9px;
+  margin-left: 1px;
+  display: block;
+}
+
+
+.lesson8-challenge-button4 {
+  background-color: rgb(41, 103, 238);
+  color: white;
+  border: none;
+  font-size: 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-family: arial;
+  padding: 8px 179px;
+  display: block;
+  margin-left: 1px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.uber-ride-paragraph {
+  color: black;
+  font-size: 22px;
+  font-family: Arial;
+}
+
+.uber-ride-button1 {
+  background-color: rgb(231, 231, 231);
+  color: rgb(80, 78, 78);
+  margin: 2px;
+  font-family: arial;
+  font-size: 13px;
+  display: block;
+  border: none;
+  padding: 10px 200px 10px 5px;
+}
+
+.uber-ride-button2 {
+  background-color: rgb(231, 231, 231);
+  color: rgb(80, 78, 78);
+  margin: 6px 2px;
+  font-family: arial;
+  font-size: 13px;
+  display: block;
+  border: none;
+  padding: 10px 200px 10px 5px;
+}
+
+.uber-ride-button3 {
+  background-color: black;
+  color: white;
+  margin-left: 2px;
+  margin-right: 5px;
+  margin-top: 15px;
+  font-family: arial;
+  font-size: 14px;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.uber-ride-button4 {
+  background-color: rgb(231, 231, 231);
+  color: black;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 15px;
+  font-family: arial;
+  font-size: 14px;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.lesson9-dive {
+  border: none;
+  border-radius: 5px;
+  width: 150px;
+  margin: 30px 10px;
+  box-shadow: 0px 0px 3px black;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.lesson9-image {
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.lesson9-paragraph {
+  color: rgb(75, 74, 74);
+  margin: 3px;
+  font-weight: normal;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.lesson9-button {
+  background-color: blue;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  margin: 4px 3px;
+  padding: 4px 15px;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.lesson-10-grid {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  column-gap: 0px;
+}
+
+.lesson-10-main-div {
+  margin-left: 10px;
+  width: 150px;
+  box-shadow: 0 0 4px rgb(146, 146, 146);
+}
+
+.lesson-10-main-image {
+  width: 150px;
+  height: 120px;
+  object-position: top;
+  object-fit: fill;
+  vertical-align: top;
+}
+
+.lesson-10-profile-image {
+  vertical-align: top;
+  margin-left: 5px;
+  margin-top: 0;
+  margin-right: 5px;
+  width: inherit;
+  height: 23px;
+  object-fit: cover;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.lesson-10-horizantal-div-1 {
+  width: 23px;
+  margin-top: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.lesson-10-horizantal-div-2 {
+  display: inline-block;
+  margin-top: 0;
+  vertical-align: middle;
+}
+
+.lesson-10-vertical-div-2-heading {
+  margin: 5px 5px;
+  font-size: 16px;
+}
+
+.lesson-10-horizantal-div-2-pragraph {
+  color: gray;
+  display: inline-block;
+  font-size: 12px;
+  vertical-align: top;
+  margin-left: 5px;
+  margin-top: 0;
+}
+
+.lesson-10-vertical-div-4-button {
+  margin: 5px 5px;
+  margin-bottom: 6px;
+  color: white;
+  background-color: rgb(24, 119, 242);
+  border: none;
+  border-radius: 3px;
+  padding: 5px 15px;
+  font-size: 16px;
+}
+
+.container-12e {
+  width: 70%;
+  margin: auto;
+  border: 1px rgb(200, 200, 200) solid;
+  border-radius: 5px;
+  padding: 0px 12px;
+}
+
+.flexbox-12e {
+  display: flex;
+  align-items: center;
+  padding: 7px 0px;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.text-12e {
+  font-family: Arial;
+  font-weight: bold;
+}
+
+.number-12e {
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: rgb(49, 109, 245);
+  color: white;
+  border-radius: 10px;
+  padding: 2px 10px;
+}
+
+
+.container-12f {
+  background-color: rgb(120, 82, 178);
+}
+
+.flexbox-12f {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(120, 82, 178);
+  padding: 15px 10px;
+}
+
+.home-12f {
+  width: 5px;
+  color: white;
+  font-family: arial;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.input-12f {
+  width: 400px;
+  height: 30px;
+  font-family: arial;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 15px;
+  border: none;
+  padding-left: 20px;
+  outline: none;
+}
+
+.download-12f {
+
+  color: white;
+  font-family: arial;
+  font-size: 16px;
+  font-weight: bold;
+  border: 1px white solid;
+  border-radius: 2px;
+  padding: 8px 15px;
+  background-color: rgb(120, 82, 178);
+  transition: 0.15ms;
+}
+
+.download-12f:hover {
+  background-color: white;
+  color: rgb(120, 82, 178);
+  transition: 0.15ms;
+}
+
+.flex-12g {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 500px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.img-12g {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 200px;
+}
+
+.name-12g {
+  margin: 0;
+  color: black;
+  font-family: arial;
+  margin-bottom: 5px;
+
+}
+
+.handl-12g {
+  margin: 0;
+  color: rgb(150, 150, 150);
+  font-family: arial;
+  margin-bottom: 5px;
+}
+
+.category-12g {
+  margin: 0;
+  color: rgb(150, 150, 150);
+  font-size: 14px;
+  font-family: arial;
+  margin-bottom: 5px;
+}
+
+.follow-button-12g {
+  color: white;
+  font-family: arial;
+  background-color: rgb(29, 155, 240);
+  border: none;
+  padding: 7px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.row1-12g {
+  width: 55px;
+}
+
+.row2-12g {
+  width: 120px;
+  margin-left: 10px;
+}
+
+.row3-12g {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+
+
+
+
+
+
+
+
+

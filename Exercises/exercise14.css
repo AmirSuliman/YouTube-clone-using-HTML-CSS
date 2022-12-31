@@ -1,0 +1,172 @@
+body{
+  padding-bottom: 3000px;
+  padding-top: 60px;
+  padding-left: 60px;
+  font-family: arial;
+}
+
+.bottom-right{
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  background-color: black;
+  color: white;
+}
+
+.right-sidebar{
+  color: white;
+  background-color: rgb(20, 150, 3);
+  width: 100px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.cover-entire-page{
+  background-color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -3;
+}
+
+.overlay{
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay-modal{
+  background-color: white;
+  width: 300px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.modal-title{
+  margin: 0;
+}
+
+.modal{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.facebook-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding: 10px 50px;
+}
+
+.profile-picture{
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.profile-name{
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.actions{
+  display: flex;
+}
+
+.profile-info{
+  display: flex;
+  align-items: center;
+}
+
+.add-friend{
+  background-color: rgb(73, 73, 255);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-weight: bold;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.message{
+  background-color: rgb(212, 212, 212);
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.sidebar1{
+  display: flex;
+  flex-direction: column;
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgba(0, 0, 0, 0.849);
+  position: fixed;
+  left: 0;
+  top: 60px;
+  bottom: 0;
+}
+
+.image{
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-bottom: 6px;
+}
+
+.sidebar2{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgba(0, 0, 0, 0.726);
+  position: fixed;
+  left: 60px;
+  top: 60px;
+  bottom: 0;
+  width: 150px;
+}
+
+.sidebar2-flex1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.plus-sign{
+  color: rgb(172, 172, 172);
+  font-size: x-large;
+}
+
+.hashtag{
+  color: rgb(172, 172, 172);
+  margin-bottom: 10px;
+}

@@ -1,0 +1,80 @@
+body{
+  padding-bottom: 3000px;
+  font-family: arial;
+}
+.ad-container{
+  position: fixed;
+}
+
+.close-button{
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  position: absolute;
+  top: -12px;
+  left: -12px;
+  padding: 7px 10px;
+  border-radius: 20px;
+}
+
+.fixed-box{
+  background-color: gray;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 320px;
+  height: 180px;
+}
+
+.timestamp{
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  padding: 3px 5px;
+}
+
+.shirt{
+  position: relative;
+  top: 50px;
+  left: 50px;
+  display: inline-block;
+}
+
+.discount{
+  position: absolute;
+  top: 10px;
+  right: 0;
+  background-color: black;
+  color: white;
+  padding: 6px 10px;
+  font-size: 12px;
+}
+
+.overlay{
+  position: absolute;
+  bottom: 0;
+  top: 150px;
+  right: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.521);
+
+}
+
+.add-to-cart{
+  padding: 6px 10px;
+  border: 1px black solid;
+  position: absolute;
+  top: 20px;
+  right: 75px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
